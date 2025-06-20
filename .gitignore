@@ -27,3 +27,6 @@ dist-ssr
 serviceAccount.json
 public/serviceAccount.json
 functions/serviceAccount.json
+serviceAccount.json
+public/serviceAccount.json
+functions/serviceAccount.json
