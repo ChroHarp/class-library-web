@@ -2,7 +2,7 @@
 // 只做一件事：用 Compat API 建立全域 firebase App
 // --------------------------------------------------
 const firebaseConfig = {
-  apiKey: "AIzaSyCuJGgCqa_gtrhipULfOw3HuMocoNdry9E",
+  apiKey: "AIzaSyDqMWLy6TkWU_7Rtahtf3LmtPBlberM928",
   authDomain: "psjh-ez-library.firebaseapp.com",
   projectId: "psjh-ez-library",
   storageBucket: "psjh-ez-library.appspot.com",
