@@ -22,3 +22,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+/public/serviceAccount.json
+/functions/serviceAccount.json
+serviceAccount.json
+public/serviceAccount.json
+functions/serviceAccount.json
