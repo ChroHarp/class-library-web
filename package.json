@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "generate:config": "node ./scripts/generateFirebaseConfig.cjs",
+    "build": "npm run generate:config && vite build",
     "preview": "vite preview"
   },
   "devDependencies": {
