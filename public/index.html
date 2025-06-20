@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>平興數資圖書借閱系統</title>
+
+<!-- ① 先載入 compat 版 SDK（提供全域 firebase 物件）-->
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-storage-compat.js"></script>
+
+<!-- ② 再載入你的 firebaseConfig.js（裡面呼叫 firebase.initializeApp(...)）-->
+<script src="/firebaseConfig.js"></script>
+  <script defer src="app.js"></script>
+
+  <link rel="stylesheet" href="CSS/main2.css">
+  <style>
+    .ac-list{
+      margin:0; padding:0; list-style:none;
+      border:1px solid #ccc; max-height:180px; overflow-y:auto;
+      background:#fff; position:absolute; z-index:999; width:100%;
+    }
+    .ac-list li{ padding:6px 10px; cursor:pointer; }
+    .ac-list li:hover{ background:#f0f0f0; }
+    .input-group{ position:relative; }      /* 讓 ul 定位在輸入框下 */
+  </style>
+
+</head>
+<body>
+  <div class="container">
+    <h1>平興數資圖書借閱系統</h1>
+
+    <!-- 借閱表單 -->
+    <form id="fBorrow">
+      <div class="input-group">
+        <label for="name"><b>借閱者姓名</b></label>
+        <input id="name" type="text" placeholder="請輸入借閱者姓名" required>
+      </div>
+
+      <div class="input-group">
+        <label for="type"><b>期刊借閱</b></label>
+        <div class="journal-block">
+          <select id="type">
+            <option value="" selected>— 選擇期刊 (若借書請留空) —</option>
+            <option value="國家地理雜誌">國家地理雜誌</option>
+            <option value="科學月刊">科學月刊</option>
+          </select>
+          <input id="issue" type="number" placeholder="期數" disabled>
+        </div>
+      </div>
+
+      <div class="input-group">
+        <label for="book"><b>書籍名稱</b></label>
+        <input id="book" type="text" placeholder="請輸入書籍名稱">
+        <ul id="suggestions" class="ac-list"></ul>
+      </div>
+
+      <button class="submit-btn">借閱</button>
+    </form>
+
+    <hr class="divider">
+
+    <!-- 查詢 / 還書 -->
+    <h2>還書工具</h2>
+    <button id="btnQuery" class="submit-btn">查詢借閱中圖書</button>
+    <ul id="list"></ul>
+    <button id="btnReturn" class="submit-btn" style="display:none">還書</button>
+
+    <a href="view.html" class="link">圖書借閱紀錄</a>
+  </div>
+
+  <!-- 啟用 / 停用「期數」欄 -->
+  <script>
+    const type  = document.getElementById('type');
+    const issue = document.getElementById('issue');
+    type.addEventListener('change', () => {
+      issue.disabled = !type.value;
+      if (!type.value) issue.value = '';
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>新增書籍</title>
+
+<!-- 放在其他 <script> 之前 -->
+<script src="https://unpkg.com/@zxing/library@0.19.1/umd/index.min.js"></script>
+<!-- ① Compat SDK：提供全域 firebase -->
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-storage-compat.js"></script>
+
+<!-- ② 初始化 -->
+<script src="/firebaseConfig.js"></script>
+
+<!-- ③ ZXing 掃碼 UMD 版（全域 ZXing 物件）-->
+<script src="https://cdn.jsdelivr.net/npm/@zxing/library@0.19.1/umd/index.min.js"></script>
+
+<!-- ④ 我們的業務邏輯 -->
+<script defer src="/addBook.js"></script>
+
+<link rel="stylesheet" href="CSS/main2.css">
+<style>
+  #preview{width:100%;max-height:260px;display:none;border:1px solid #ccc}
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>新增書籍</h1>
+
+  <div class="input-group">
+    <label>ISBN</label>
+    <input id="isbn"  type="number" placeholder="輸入或掃描 ISBN">
+    <button id="btnScan" class="submit-btn">掃描 ISBN</button>
+  </div>
+
+  <div class="input-group"><label>書名</label><input  type="text" id="title"></div>
+  <div class="input-group"><label>作者</label><input type="text" id="author"></div>
+  <div class="input-group"><label>出版社</label><input type="text" id="publisher"></div>
+
+  <div class="input-group">
+    <label>封面（選擇檔案或拍照）</label>
+    <input id="cover" type="file" accept="image/*" capture="environment">
+  </div>
+
+  <button id="btnSave" class="submit-btn">儲存</button>
+
+  <!-- 相機預覽 -->
+  <video id="preview" muted></video>
+</div>
+</body>
+</html>

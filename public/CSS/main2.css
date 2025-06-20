@@ -1,0 +1,269 @@
+/* ---------- 全局樣式 ---------- */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap');
+
+:root {
+  --primary: #3f51b5;
+  --primary-light: #5c6bc0;
+  --primary-dark: #303f9f;
+  --accent: #ff9800;
+  --text-primary: #333;
+  --text-secondary: #666;
+  --background: #f5f7fa;
+  --card: #ffffff;
+  --border-radius: 12px;
+  --shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+  --transition: all 0.3s ease;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Noto Sans TC', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: var(--background);
+  color: var(--text-primary);
+  line-height: 1.6;
+}
+
+.container {
+  background: var(--card);
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+  position: relative;
+  overflow: hidden;
+}
+
+.container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 6px;
+  background: var(--primary);
+}
+
+h1,
+h2 {
+  text-align: center;
+  color: var(--primary-dark);
+  margin-bottom: 25px;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 1.8rem;
+  margin-top: 10px;
+}
+
+h2 {
+  font-size: 1.4rem;
+  margin-top: 15px;
+}
+
+/* ---------- 輸入樣式 ---------- */
+.input-group {
+  margin-bottom: 24px;
+  position: relative;
+}
+
+.input-group label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+  width: 100%;
+  padding: 12px 16px;
+  font-size: 16px;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  box-sizing: border-box;
+  transition: var(--transition);
+  background-color: #fafafa;
+  color: var(--text-primary);
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+select:focus {
+  outline: none;
+  border-color: var(--primary-light);
+  background-color: #fff;
+  box-shadow: 0 0 0 3px rgba(63, 81, 181, 0.1);
+}
+
+input::placeholder {
+  color: #aaa;
+}
+
+/* ---------- 表單區塊 + 行內佈局 ---------- */
+.journal-block {
+  display: flex;
+  gap: 12px;
+}
+
+.journal-block select {
+  flex: 2;
+}
+
+.journal-block input {
+  flex: 1;
+}
+
+/* ---------- 自動完成清單 ---------- */
+.ac-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  max-height: 180px;
+  overflow-y: auto;
+  background: #fff;
+  position: absolute;
+  z-index: 999;
+  width: 100%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-top: 4px;
+}
+
+.ac-list li {
+  padding: 10px 16px;
+  cursor: pointer;
+  transition: var(--transition);
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.ac-list li:last-child {
+  border-bottom: none;
+}
+
+.ac-list li:hover {
+  background: #f5f5f5;
+  color: var(--primary);
+}
+
+/* ---------- 提交按鈕樣式 ---------- */
+.submit-btn {
+  width: 100%;
+  padding: 14px;
+  margin-top: 10px;
+  background: var(--primary);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: var(--transition);
+  box-shadow: 0 4px 6px rgba(63, 81, 181, 0.15);
+  letter-spacing: 0.5px;
+}
+
+.submit-btn:hover {
+  background: var(--primary-light);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(63, 81, 181, 0.2);
+}
+
+.submit-btn:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(63, 81, 181, 0.15);
+}
+
+/* ---------- 分隔線 ---------- */
+.divider {
+  border: none;
+  height: 1px;
+  background: linear-gradient(to right, transparent, #e0e0e0, transparent);
+  margin: 35px 0;
+}
+
+#list {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #eee;
+}
+
+#list li {
+  padding: 12px 16px;
+  border-bottom: 1px solid #eee;
+  transition: var(--transition);
+  background-color: #fff;
+}
+
+#list li:last-child {
+  border-bottom: none;
+}
+
+#list li:hover {
+  background-color: #f9f9f9;
+}
+
+.link {
+  display: block;
+  text-align: right;
+  color: var(--primary);
+  text-decoration: none;
+  margin-top: 25px;
+  font-weight: 500;
+  transition: var(--transition);
+}
+
+.link:hover {
+  color: var(--primary-dark);
+  text-decoration: underline;
+}
+
+/* ---------- 行動裝置 - 600px 以下樣式 ---------- */
+
+/* ---------- 桌面裝置 - 800px 以上樣式 ---------- */
+@media (min-width: 800px) {
+  .container {
+    max-width: 550px;
+    padding: 40px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  /* 手機版 input/button 寬度調整為 90% */
+  input[type="text"],
+  input[type="number"],
+  select,
+  .submit-btn {
+    width: 90%;
+    margin: 0 auto 15px auto;
+    display: block;
+  }
+
+  .journal-block {
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .submit-btn {
+    margin-top: 20px;
+  }
+}

@@ -1,0 +1,270 @@
+[
+{"category":"其他","id":"00-001","title":"我的資優班","author":"游森棚","publisher":"寶瓶","isbn":"","coverURL":""}
+,
+{"category":"其他","id":"00-002","title":"資優生獨立研究指導手冊","author":"潘裕豐","publisher":"台師大特教系","isbn":"","coverURL":""}
+,
+{"category":"其他","id":"00-003","title":"國家地理攝影精技-旅遊篇","author":"羅伯特．卡普托","publisher":"秋雨文化","isbn":"","coverURL":""}
+,
+{"category":"其他","id":"00-004","title":"潛水鐘與蝴蝶","author":"Jean-Dominique Bauby","publisher":"大塊","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-001","title":"神秘有趣的數學","author":"孫文先","publisher":"九章出版社","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-002","title":"逆轉騙數","author":"莊惟棟","publisher":"MOOK墨刻","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-003","title":"幾何明珠","author":"黃家禮","publisher":"九章出版社","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-004-1","title":"初中數學競賽教程","author":"嚴鎮軍","publisher":"九章出版社","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-004-2","title":"初中數學競賽教程","author":"嚴鎮軍","publisher":"九章出版社","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-005","title":"初中奧數超級教程 初中二年級","author":"朱華偉","publisher":"九章出版社","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-006","title":"藝數摺學","author":"李政憲","publisher":"臉譜","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-007","title":"数学奥林匹克小丛书·初中卷-1因式分解技巧","author":"单壿","publisher":"华东师范大学出版社","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-008","title":"数学奥林匹克小丛书·初中卷-2方程与方程组","author":"葛军","publisher":"华东师范大学出版社","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-009","title":"数学奥林匹克小丛书·初中卷-3一次函数与二次函数","author":"李惟峰","publisher":"华东师范大学出版社","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-010","title":"数学奥林匹克小丛书·初中卷-4三角形与四边形","author":"沈文选","publisher":"华东师范大学出版社","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-011","title":"数学奥林匹克小丛书·初中卷-5圆","author":"柯新立","publisher":"华东师范大学出版社","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-012","title":"数学奥林匹克小丛书·初中卷-6整除、同余与不定方程","author":"冯志刚","publisher":"华东师范大学出版社","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-013","title":"数学奥林匹克小丛书·初中卷-7组合趣题","author":"周建新","publisher":"华东师范大学出版社","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-014","title":"数学奥林匹克小丛书·初中卷-8初中数学竞赛中的解题方法与策略","author":"冯志刚、顾滨","publisher":"华东师范大学出版社","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-015-1","title":"令你苦思冥想的数学趣题","author":"Peter Winkier","publisher":"人民邮电出版","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-015-2","title":"令你苦思冥想的数学趣题","author":"Peter Winkier","publisher":"人民邮电出版","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-015-3","title":"令你苦思冥想的数学趣题","author":"Peter Winkier","publisher":"人民邮电出版","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-015-4","title":"令你苦思冥想的数学趣题","author":"Peter Winkier","publisher":"人民邮电出版","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-016","title":"組合數學-算法與分析","author":"編輯部","publisher":"九章出版社","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-017","title":"數學與猜想","author":"G.波利亞","publisher":"九章出版社","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-018","title":"數學小叢書〈1〉從算術到代數","author":"項武義","publisher":"九章出版社","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-019","title":"數學小叢書〈2〉幾何學的緣起與發展","author":"項武義","publisher":"九章出版社","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-020","title":"數學小叢書〈3〉實變多項函數","author":"項武義","publisher":"九章出版社","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-021","title":"世界數學名題欣賞-置換多項式及其應用","author":"孫琦、萬大慶","publisher":"九章出版社","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-022","title":"高中數學1 自然數系","author":"林義雄","publisher":"九章出版社","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-023","title":"高中數學2 實數系","author":"林義雄","publisher":"九章出版社","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-024","title":"高中數學3 有理數系 整數系","author":"林義雄","publisher":"九章出版社","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-025","title":"高等微積分〈上〉","author":"趙文敏","publisher":"五南","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-026","title":"高等微積分〈下〉","author":"趙文敏","publisher":"五南","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-027","title":"數學新世界 七 K-12核心概念學習單教師說明版","author":"教育部國教署委辦教師專業發展計畫","publisher":"教育部國教署委辦教師專業發展計畫","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-028","title":"數學新世界 八 K-12核心概念學習單教師說明版","author":"教育部國教署委辦教師專業發展計畫","publisher":"教育部國教署委辦教師專業發展計畫","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-029","title":"數學新世界 九 K-12核心概念學習單教師說明版","author":"教育部國教署委辦教師專業發展計畫","publisher":"教育部國教署委辦教師專業發展計畫","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-030","title":"國中資優數學2","author":"陳惠民","publisher":"博志","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-031","title":"國中資優數學3","author":"陳惠民","publisher":"博志","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-032","title":"國中資優數學4","author":"陳惠民","publisher":"博志","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-033","title":"國中資優數學56","author":"陳惠民","publisher":"博志","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-034-1","title":"國中資優數學總複習","author":"陳惠民","publisher":"博志","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-034-2","title":"國中資優數學總複習","author":"陳惠民","publisher":"博志","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-035","title":"奧林匹克數學指引-國中三年級","author":"蔡坤龍","publisher":"蔡坤龍叢書","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-036","title":"動態幾何 操作手冊/入門指引","author":"師大數學系網路小組","publisher":"九章出版社","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-037","title":"美國AMC8數學測驗 歷屆試題暨詳解","author":"陳榮輝","publisher":"博凱","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-038","title":"無敵講義 高中數學1乙版(含解答本)","author":"吳家豪","publisher":"翰林","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-039","title":"數學趣談","author":"王沛清","publisher":"九章出版社","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-040","title":"培養數學上的機智","author":"本社編輯部","publisher":"九章出版社","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-041","title":"與中學生談中國數學史上的幾大成就","author":"華羅庚","publisher":"九章出版社","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-042","title":"人類怎樣計算","author":"孫文先","publisher":"九章出版社","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-043","title":"寓數學於遊戲第一輯","author":"趙文敏","publisher":"九章出版社","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-044","title":"寓數學於遊戲第二輯","author":"趙文敏","publisher":"九章出版社","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-045","title":"多方塊","author":"孫文先","publisher":"九章出版社","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-046-1","title":"為甚麼要學習數學？","author":"蕭文強","publisher":"九章出版社","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-046-2","title":"為甚麼要學習數學？","author":"蕭文強","publisher":"九章出版社","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-047","title":"平面几何100题","author":"单壿","publisher":"中囯科学技术大学出版社","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-048","title":"愛上數學的第一本書","author":"丑田俊二","publisher":"商周","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-049","title":"這個問題你用數學方式想過嗎？","author":"齊斯．德福林","publisher":"臉譜","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-050","title":"用數學的語言看世界","author":"大栗博司","publisher":"臉譜","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-051","title":"數學益智遊戲250例","author":"馬里．別爾隆多","publisher":"凡異","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-052","title":"數學女孩-費馬最後定理","author":"結城浩","publisher":"世茂","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-053","title":"數學女孩-哥德爾不完備定理","author":"結城浩","publisher":"世茂","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-054","title":"數學女孩-隨機演算法","author":"結城浩","publisher":"世茂","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-055","title":"數學對話錄","author":"A.Renyi","publisher":"凡異","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-056","title":"一個數學家的嘆息","author":"Paul Lockhart","publisher":"經濟新潮社","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-057","title":"無限中的有限","author":"張遠南","publisher":"教科文書局","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-058","title":"小學數學教育-智性學習","author":"Richard R.Skemp","publisher":"香港公開進修學院","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-059","title":"數學思考","author":"建中49屆314班全體同學","publisher":"九章出版社","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-060","title":"數學與哲學","author":"張景中","publisher":"九章出版社","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-061","title":"從數學教育到教育數學","author":"張景中、曹培生","publisher":"九章出版社","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-062","title":"數學學習心理學","author":"陳澤民 譯","publisher":"九章出版社","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-063","title":"平面幾何新路","author":"張景中","publisher":"九章出版社","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-064","title":"數學解題思維方法","author":"胡炳生","publisher":"九章出版社","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-065","title":"解題思路-如何作證明題","author":"九章出版社","publisher":"九章出版社","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-066","title":"高觀點下的初等數學 第二卷 幾何","author":"Felix Klein","publisher":"九章出版社","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-067","title":"數學發現","author":"本社編輯部","publisher":"九章出版社","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-068-1","title":"數學教學方法","author":"Max A. Sobel、Evan M. Maletsky","publisher":"九章出版社","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-068-2","title":"數學教學方法","author":"Max A. Sobel、Evan M. Maletsky","publisher":"九章出版社","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-069-1","title":"怎樣解題","author":"G.波利亞","publisher":"九章出版社","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-069-2","title":"怎樣解題","author":"G.波利亞","publisher":"九章出版社","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-070-1","title":"數學家的眼光","author":"張景中","publisher":"九章出版社","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-070-2","title":"數學家的眼光","author":"張景中","publisher":"九章出版社","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-071","title":"如何培養數學能力","author":"本社編輯部","publisher":"九章出版社","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-072","title":"女數學家列傳","author":"彭婉如、洪萬生 譯","publisher":"九章出版社","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-073","title":"生活中的中學數學","author":"張奠宙、戴再平","publisher":"九章出版社","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-074","title":"中小學生數學能力心理學","author":"(蘇)克魯切茨基","publisher":"九章出版社","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-075","title":"平面幾何新路-解題研究","author":"張景中","publisher":"九章出版社","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-076","title":"西方文化中的數學","author":"張祖貴 譯","publisher":"九章出版社","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-077","title":"π的故事","author":"petr beckmann","publisher":"凡異","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-078","title":"賽局理論圖解","author":"清水武治","publisher":"商周","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-079","title":"學數學 弄懂這39個數字就對了","author":"Ian Stewart","publisher":"臉譜","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-080","title":"溫柔數學史","author":"比爾．柏林霍夫、佛南度．辜維亞","publisher":"博雅書屋","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-081","title":"當數學遇見文化","author":"洪萬生、英家銘、蘇意雯、蘇惠玉、楊瓊茹、劉柏宏","publisher":"三民","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-082","title":"追本數源-你不知道的數壆祕密","author":"蘇惠玉","publisher":"三民","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-083","title":"陶哲軒教你聰明解數學","author":"陶哲軒","publisher":"遠流","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-084","title":"打開魔數箱","author":"Martin Gardner","publisher":"遠流","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-085","title":"數壆 確定性的失落","author":"Morris Kline","publisher":"商務","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-086","title":"世界第一簡單微積分","author":"小島寬之","publisher":"世茂","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-087","title":"世界第一簡單傅立葉分析","author":"澀谷道雄","publisher":"世茂","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-088","title":"世界第一簡單虛數．複數","author":"相知政司","publisher":"世茂","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-089","title":"世界第一簡單統計學【修訂版】","author":"高橋信","publisher":"世茂","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-090-1","title":"GeoGebra幾何與代數的美麗邂逅","author":"羅驥驊","publisher":"五南","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-090-2","title":"GeoGebra幾何與代數的美麗邂逅","author":"羅驥驊","publisher":"五南","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-090-3","title":"GeoGebra幾何與代數的美麗邂逅","author":"羅驥驊","publisher":"五南","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-091","title":"跳出思路的陷阱","author":"Martin Gardner","publisher":"天下文化","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-092","title":"啊哈！有趣的推理Ⅱ","author":"Martin Gardner","publisher":"天下文化","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-093","title":"迷宮、黃金比、索馬立方體","author":"Martin Gardner","publisher":"天下文化","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-094","title":"妙不可言的數壆證明","author":"波斯特","publisher":"天下文化","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-095","title":"微積分之旅","author":"柏林斯基","publisher":"天下文化","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-096","title":"微積分之倚天寶劍","author":"亞當斯","publisher":"天下文化","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-097","title":"阿草的數學聖杯","author":"曹亮吉","publisher":"天下文化","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-098","title":"阿草的數壆天地","author":"曹亮吉","publisher":"天下文化","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-099","title":"統計改變了世界","author":"David Salsburg","publisher":"天下文化","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-100","title":"毛起來說無限","author":"毛爾","publisher":"天下文化","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-101","title":"毛起來說三角","author":"毛爾","publisher":"天下文化","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-102","title":"數壆大觀念","author":"亞瑟．班傑明","publisher":"貓頭鷹","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-103","title":"阿草的葫蘆-文化活動中的數學","author":"曹亮吉","publisher":"遠哲","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-104","title":"毛起來說e","author":"毛爾","publisher":"天下文化","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-105","title":"數學少女","author":"結城浩","publisher":"青文","isbn":"","coverURL":""}
+,
+{"category":"數學","id":"01-106","title":"隱藏的邏輯","author":"布侃南","publisher":"天下文化","isbn":"","coverURL":""}
+,
+{"category":"人文史地","id":"02-001","title":"國家地理雜誌 封面故事","author":"馬克.柯林斯.詹金斯","publisher":"大石國際文化","isbn":"","coverURL":""}
+,
+{"category":"自然科學","id":"03-001","title":"萬物皆數","author":"法蘭克.維爾澤克","publisher":"貓頭鷹","isbn":"","coverURL":""}
+,
+{"category":"自然科學","id":"03-002","title":"跟著網紅老師玩科學","author":"李永樂","publisher":"時報","isbn":"","coverURL":""}
+,
+{"category":"自然科學","id":"03-003","title":"天才與人","author":"William Dunham","publisher":"牛頓","isbn":"","coverURL":""}
+,
+{"category":"自然科學","id":"03-004","title":"在費曼之前-二十世紀科學簡史","author":"恩斯特．費雪","publisher":"究竟","isbn":"","coverURL":""}
+,
+{"category":"自然科學","id":"03-005","title":"台灣傑出科學家之創造與生涯例城","author":"陳昭儀","publisher":"五南","isbn":"","coverURL":""}
+,
+{"category":"自然科學","id":"03-006","title":"圖解時間簡史","author":"史蒂芬．霍金","publisher":"大塊","isbn":"","coverURL":""}
+,
+{"category":"自然科學","id":"03-007","title":"錯覚クイズ","author":"杉原厚吉","publisher":"大和書房","isbn":"","coverURL":""}
+,
+{"category":"摺紙","id":"09-001","title":"SPHERE 不思議な球体ポップアップカード","author":"月本 せいじ","publisher":"グラフィック社","isbn":"","coverURL":""}
+,
+{"category":"摺紙","id":"09-002","title":"立体トリックアート工作キットブック2","author":"杉原厚吉","publisher":"金の星社","isbn":"","coverURL":""}
+,
+{"category":"摺紙","id":"09-003","title":"驚奇的電視冠軍紙機關","author":"篠崎均","publisher":"采實文化","isbn":"","coverURL":""}
+,
+{"category":"摺紙","id":"09-004","title":"大人のぺーパークラフト","author":"中村開己","publisher":"日本文芸社","isbn":"","coverURL":""}
+,
+{"category":"摺紙","id":"09-005","title":"紙のからくりカミカラで遊ぼ","author":"中村開己","publisher":"日本文芸社","isbn":"","coverURL":""}
+
+]

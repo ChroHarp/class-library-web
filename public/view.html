@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device‑width, initial‑scale=1.0">
+  <title>平興數資圖書借閱紀錄</title>
+  <link rel="stylesheet" href="CSS/view2.css">
+<!-- ① 先載入 compat 版 SDK（提供全域 firebase 物件）-->
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-storage-compat.js"></script>
+
+<!-- ② 再載入你的 firebaseConfig.js（裡面呼叫 firebase.initializeApp(...)）-->
+<script src="/firebaseConfig.js"></script>
+  <script defer src="view-app.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>平興數資圖書借閱紀錄</h1>
+
+    <div class="input-group">
+      <input type="text" id="kw" placeholder="搜尋姓名或書名">
+      <button class="btn" onclick="location.href='index.html'">返回借閱介面</button>
+    </div>
+
+  <div class="table-wrapper">
+    <table id="borrowTable">
+      <thead>
+        <tr>
+          <th>借閱者</th>
+          <th>書籍名稱</th>
+          <th>借閱日期</th>
+          <th>歸還日期</th>
+        </tr>
+      </thead>
+      <tbody id="tbody"></tbody>
+    </table>
+  </div>
+
+    <div class="no-records" id="noRec">無借閱紀錄</div>
+  </div>
+</body>
+</html>
