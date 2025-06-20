@@ -1,0 +1,17 @@
+<!-- 先載入 config（⚠️ 要加 type="module"，才能用 import.meta.env）-->
+<script type="module" src="/firebaseConfig.js"></script>
+
+<!-- 再載入 main；同樣用 module，就能保留 ES 語法 -->
+<script type="module" src="/src/main.js"></script><!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
