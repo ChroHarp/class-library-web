@@ -69,3 +69,4 @@ node_modules/
 .dataconnect
 serviceAccount.json
 serviceAccount.json
+functions/serviceAccount.json
